@@ -5,7 +5,7 @@
         {{ with .Site.Params.titleimage }}
           {{ $image := resources.Get . }}
           <img
-            src="{{ ($image.Fit "200x200 webp").RelPermalink }}"
+            src="{{ ($image.Fit "900x900 webp").RelPermalink }}"
             width="200"
             height="200"
             alt=""
