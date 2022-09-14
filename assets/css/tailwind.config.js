@@ -103,7 +103,7 @@ module.exports = {
       black: colors.black,
       white: colors.white,
       gray: colors.gray,
-      accent: colors.green,
+      accent: colors.sky,
     },
     borderColor: (theme) => ({
       ...theme("colors"),
