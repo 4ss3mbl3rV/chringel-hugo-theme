@@ -27,8 +27,8 @@ module.exports = {
         print: { raw: "print" },
       },
       fontFamily: {
-        headline: ["Comfortaa"],
-        body: ["Fira Sans"],
+        headline: ["Oxanium"],
+        body: ["Poppins"],
       },
       fontSize: {
         resume__sm2: "0.9375rem", // 15px label
@@ -68,9 +68,9 @@ module.exports = {
             },
             a: {
               fontWeight: "300",
-              color: theme("colors.accent.500"),
+              color: theme("colors.gray.700"),
               "&:hover": {
-                color: theme("colors.accent.700"),
+                color: theme("colors.accent.500"),
               },
             },
           },
@@ -84,7 +84,7 @@ module.exports = {
             h4: { color: theme("colors.gray.200") },
             h5: { color: theme("colors.gray.200") },
             h6: { color: theme("colors.gray.200") },
-            a: { color: theme("colors.accent.500") },
+            a: { color: theme("colors.gray.200") },
             p: { color: theme("colors.gray.200") },
             ul: { color: theme("colors.gray.200") },
             ol: { color: theme("colors.gray.200") },
