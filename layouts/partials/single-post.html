@@ -27,7 +27,7 @@
       {{- end -}}
     {{- end -}}
     {{/* h-entry */}}
-    <div class="e-content">
+    <div class="e-content" {{ if isset .Params "font" }} style="font-family: '{{ .Params.font }}';" {{ end }}>
       {{ .Content }}
     </div>
     <hr />
