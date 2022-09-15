@@ -1,5 +1,5 @@
 ---
-author: Me
+author: 0x65dvrc
 type: note
 date: {{ .Date }}
 draft: true

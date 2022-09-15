@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-author: Me
-type: post
+author: 0x65dvrc
+type: blog
 date:  {{ .Date }}
 cover: 
   src: feature.jpg
