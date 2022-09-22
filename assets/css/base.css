@@ -135,4 +135,8 @@
   hr.note {
     @apply m-1;
   }
+  div > iframe {
+    @apply inline-grid;
+    margin-left: 0.5rem;
+  }
 }

@@ -692,6 +692,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }hr.note{
   margin: 0.25rem;
+}div > iframe{
+  display: inline-grid;
+    margin-left: 0.5rem;
 }*, ::before, ::after{
   --tw-translate-x: 0;
   --tw-translate-y: 0;
