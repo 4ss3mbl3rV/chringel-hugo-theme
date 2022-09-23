@@ -64,7 +64,7 @@ module.exports = {
           css: {
             h1: {
               color: theme("colors.gray.500"),
-              fontWeight: "300",
+              fontWeight: "300"
             },
             a: {
               fontWeight: "300",
@@ -79,11 +79,26 @@ module.exports = {
           css: {
             color: theme("colors.gray.200"),
             h1: { color: theme("colors.gray.200") },
-            h2: { color: theme("colors.gray.200") },
-            h3: { color: theme("colors.gray.200") },
-            h4: { color: theme("colors.gray.200") },
-            h5: { color: theme("colors.gray.200") },
-            h6: { color: theme("colors.gray.200") },
+            h2: {
+              color: theme("colors.gray.200"),
+              fontFamily: 'Noto Sans Lao'
+            },
+            h3: { 
+              color: theme("colors.gray.200"),
+              fontFamily: 'Noto Sans Lao'  
+            },
+            h4: { 
+              color: theme("colors.gray.200"),
+              fontFamily: 'Noto Sans Lao'  
+            },
+            h5: { 
+              color: theme("colors.gray.200"),
+              fontFamily: 'Noto Sans Lao'  
+            },
+            h6: { 
+              color: theme("colors.gray.200"),
+              fontFamily: 'Noto Sans Lao'  
+            },
             a: { color: theme("colors.gray.200") },
             p: { color: theme("colors.gray.200") },
             ul: { color: theme("colors.gray.200") },
