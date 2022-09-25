@@ -66,6 +66,26 @@ module.exports = {
               color: theme("colors.gray.500"),
               fontWeight: "300"
             },
+            h2: {
+              color: theme("colors.gray.200"),
+              fontFamily: 'Noto Sans Lao'
+            },
+            h3: { 
+              color: theme("colors.gray.500"),
+              fontFamily: 'Noto Sans Lao'  
+            },
+            h4: { 
+              color: theme("colors.gray.500"),
+              fontFamily: 'Noto Sans Lao'  
+            },
+            h5: { 
+              color: theme("colors.gray.500"),
+              fontFamily: 'Noto Sans Lao'  
+            },
+            h6: { 
+              color: theme("colors.gray.500"),
+              fontFamily: 'Noto Sans Lao'
+            },
             a: {
               fontWeight: "300",
               color: theme("colors.gray.700"),
