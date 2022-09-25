@@ -903,29 +903,32 @@ Ensure the default browser behavior of the `hidden` attribute.
 }.prose :where(h1 strong):not(:where([class~="not-prose"] *)){
   font-weight: 900;
 }.prose :where(h2):not(:where([class~="not-prose"] *)){
-  color: var(--tw-prose-headings);
+  color: #6b7280;
   font-weight: 700;
   font-size: 1.5em;
   margin-top: 2em;
   margin-bottom: 1em;
   line-height: 1.3333333;
+  font-family: Noto Sans Lao;
 }.prose :where(h2 strong):not(:where([class~="not-prose"] *)){
   font-weight: 800;
 }.prose :where(h3):not(:where([class~="not-prose"] *)){
-  color: var(--tw-prose-headings);
+  color: #6b7280;
   font-weight: 600;
   font-size: 1.25em;
   margin-top: 1.6em;
   margin-bottom: 0.6em;
   line-height: 1.6;
+  font-family: Noto Sans Lao;
 }.prose :where(h3 strong):not(:where([class~="not-prose"] *)){
   font-weight: 700;
 }.prose :where(h4):not(:where([class~="not-prose"] *)){
-  color: var(--tw-prose-headings);
+  color: #6b7280;
   font-weight: 600;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
   line-height: 1.5;
+  font-family: Noto Sans Lao;
 }.prose :where(h4 strong):not(:where([class~="not-prose"] *)){
   font-weight: 700;
 }.prose :where(figure > *):not(:where([class~="not-prose"] *)){
@@ -1095,6 +1098,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0;
 }.prose > :where(:last-child):not(:where([class~="not-prose"] *)){
   margin-bottom: 0;
+}.prose :where(h5):not(:where([class~="not-prose"] *)){
+  color: #6b7280;
+  font-family: Noto Sans Lao;
+}.prose :where(h6):not(:where([class~="not-prose"] *)){
+  color: #6b7280;
+  font-family: Noto Sans Lao;
 }.fixed{
   position: fixed;
 }.absolute{
