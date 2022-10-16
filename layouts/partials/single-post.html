@@ -4,7 +4,7 @@
   {{/* h-entry */}}
   <article class="h-entry">
     {{/* h-entry */}}
-    <h1 class="p-name">{{ .Title }}</h1>
+    <h1 class="p-name" {{if isset .Params "font"}}style="font-family: '{{ .Params.font }}';"{{end}}>{{ .Title }}</h1>
     <div>
       <span class="text-gray-400">
         {{ partial "icons/ionicons" (dict "logoname" "time-outline" "size" 5) }}
