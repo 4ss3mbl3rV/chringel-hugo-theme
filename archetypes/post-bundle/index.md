@@ -10,14 +10,17 @@ cover:
   caption: Title image caption *Markdown* **supported**
 draft: true
 categories:
-  - A
-  - B
-  - C
+  - Article
+  - CTF
+  - Boot2root
+  - Infosec
 tags:
-  - Hugo
-  - Game Development
-  - Internet of Things (IoT)
+  - Cybersecurity
+  - Incident Response
+  - Digital Forensics
+  - Malware Analysis
   - Linux
+  - ...
 description: Read this interesting post, it's totally worth it.
 ---
 
