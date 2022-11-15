@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-author: Me
+author: 0x65dvrc
 type: post
 date:  {{ .Date }}
 # optional
